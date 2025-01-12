@@ -1,1 +1,1 @@
-# uno-repository
+# student-management-system
