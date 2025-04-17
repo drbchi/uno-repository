@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app by Hridaya</title>
+    <link rel="stylesheet" href="weatherapp.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="enter city name" spellcheck="false">
+            <button onclick="getWeather()">"Search"</button>
+        </div>
+        <div class="weather"></div>
+        <h2 class="city"></h2>
+        <h1 class="temp">53°F</h1>
 
+        <div class="col">
+            <div>
+                <p>Humidity</p>
+                <p class="Humidity">84%</p>
+            </div>
+        </div>
+        <div class="col">
+            <div>
+                <p>Wind</p>
+                <p class="Wind">18 mph</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="weatherapp.js"></script>
+</body>
+</html>
